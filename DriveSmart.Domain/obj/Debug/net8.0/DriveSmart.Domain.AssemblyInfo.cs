@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DriveSmart.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a819964f344bd2cff337044c44bc1db056693da4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4354b8283847cc29a59a596106d7e42581bee685")]
 [assembly: System.Reflection.AssemblyProductAttribute("DriveSmart.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DriveSmart.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

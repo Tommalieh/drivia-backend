@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveSmart.Api", "DriveSmart.Api\DriveSmart.Api.csproj", "{193C271D-429B-48ED-ACAE-985E2FF9F0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveSmart.Domain", "DriveSmart.Domain\DriveSmart.Domain.csproj", "{AC9EE010-1EF2-4024-83D7-1187AC29C7F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveSmart.Shared", "DriveSmart.Shared\DriveSmart.Shared.csproj", "{131DFC70-3556-41F2-9563-D650BE400B91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveSmart.Persistence", "DriveSmart.Persistence\DriveSmart.Persistence.csproj", "{B9CC9DAE-5F0F-42FC-B5D7-C9AE3CE557E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveSmart.Application", "DriveSmart.Application\DriveSmart.Application.csproj", "{5D4A2984-BDCB-4D8E-BD73-F45D5400E3CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveSmart.Infrastructure", "DriveSmart.Infrastructure\DriveSmart.Infrastructure.csproj", "{28C098F6-B4CC-4085-A127-B8309CAF2B95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{193C271D-429B-48ED-ACAE-985E2FF9F0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193C271D-429B-48ED-ACAE-985E2FF9F0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193C271D-429B-48ED-ACAE-985E2FF9F0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193C271D-429B-48ED-ACAE-985E2FF9F0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9EE010-1EF2-4024-83D7-1187AC29C7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9EE010-1EF2-4024-83D7-1187AC29C7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9EE010-1EF2-4024-83D7-1187AC29C7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9EE010-1EF2-4024-83D7-1187AC29C7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131DFC70-3556-41F2-9563-D650BE400B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131DFC70-3556-41F2-9563-D650BE400B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131DFC70-3556-41F2-9563-D650BE400B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131DFC70-3556-41F2-9563-D650BE400B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CC9DAE-5F0F-42FC-B5D7-C9AE3CE557E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CC9DAE-5F0F-42FC-B5D7-C9AE3CE557E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CC9DAE-5F0F-42FC-B5D7-C9AE3CE557E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CC9DAE-5F0F-42FC-B5D7-C9AE3CE557E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4A2984-BDCB-4D8E-BD73-F45D5400E3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4A2984-BDCB-4D8E-BD73-F45D5400E3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4A2984-BDCB-4D8E-BD73-F45D5400E3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4A2984-BDCB-4D8E-BD73-F45D5400E3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C098F6-B4CC-4085-A127-B8309CAF2B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C098F6-B4CC-4085-A127-B8309CAF2B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C098F6-B4CC-4085-A127-B8309CAF2B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C098F6-B4CC-4085-A127-B8309CAF2B95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

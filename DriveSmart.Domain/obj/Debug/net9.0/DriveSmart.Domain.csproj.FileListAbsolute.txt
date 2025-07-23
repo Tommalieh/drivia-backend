@@ -1,0 +1,14 @@
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/bin/Debug/net9.0/DriveSmart.Domain.deps.json
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/bin/Debug/net9.0/DriveSmart.Domain.runtimeconfig.json
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/bin/Debug/net9.0/DriveSmart.Domain.dll
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/bin/Debug/net9.0/DriveSmart.Domain.pdb
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/obj/Debug/net9.0/DriveSmart.Domain.csproj.AssemblyReference.cache
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/obj/Debug/net9.0/DriveSmart.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/obj/Debug/net9.0/DriveSmart.Domain.AssemblyInfoInputs.cache
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/obj/Debug/net9.0/DriveSmart.Domain.AssemblyInfo.cs
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/obj/Debug/net9.0/DriveSmart.Domain.csproj.CoreCompileInputs.cache
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/obj/Debug/net9.0/DriveSmart.Domain.dll
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/obj/Debug/net9.0/refint/DriveSmart.Domain.dll
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/obj/Debug/net9.0/DriveSmart.Domain.pdb
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/obj/Debug/net9.0/DriveSmart.Domain.genruntimeconfig.cache
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Domain/obj/Debug/net9.0/ref/DriveSmart.Domain.dll

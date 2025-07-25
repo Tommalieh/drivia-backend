@@ -64,18 +64,18 @@ if (app.Environment.IsDevelopment())
 }
 
 // Seed data BEFORE the app starts handling requests
-try
-{
-    using (var scope = app.Services.CreateScope())
-    {
-        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-        SeedData.Initialize(db);
-    }
-}
-catch (Exception ex)
-{
-    Console.WriteLine("SEED INIT ERROR: " + ex);
-}
+// try
+// {
+//     using (var scope = app.Services.CreateScope())
+//     {
+//         var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+//         SeedData.Initialize(db);
+//     }
+// }
+// catch (Exception ex)
+// {
+//     Console.WriteLine("SEED INIT ERROR: " + ex);
+// }
 
 app.UseHttpsRedirection();
 

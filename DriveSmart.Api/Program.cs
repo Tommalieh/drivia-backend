@@ -74,8 +74,7 @@ try
 }
 catch (Exception ex)
 {
-    Console.WriteLine("SEED INIT ERROR: " + ex.ToString());
-    throw;
+    Console.WriteLine("SEED INIT ERROR: " + ex);
 }
 
 app.UseHttpsRedirection();

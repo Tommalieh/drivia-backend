@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DriveSmart.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4354b8283847cc29a59a596106d7e42581bee685")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07194d91ac37d16d03f87749ba386487edb51496")]
 [assembly: System.Reflection.AssemblyProductAttribute("DriveSmart.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DriveSmart.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

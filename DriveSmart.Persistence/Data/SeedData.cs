@@ -1,5 +1,4 @@
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using DriveSmart.Domain.Entities;
 using DriveSmart.Persistence.Data.SeedDataFiles;
 

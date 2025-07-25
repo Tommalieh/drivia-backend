@@ -74,8 +74,8 @@ try
 }
 catch (Exception ex)
 {
-    app.Logger.LogError(ex, "Seeding database failed.");
-    // Optionally, rethrow or handle the error as you see fit
+    Console.WriteLine("SEED INIT ERROR: " + ex.ToString());
+    throw;
 }
 
 app.UseHttpsRedirection();

@@ -1,5 +1,11 @@
+Console.WriteLine("Starting...");
 var builder = WebApplication.CreateBuilder(args);
+Console.WriteLine("builder created...");
 builder.Services.AddControllers();
+Console.WriteLine("Services added...");
 var app = builder.Build();
+Console.WriteLine("builder built...");
 app.MapControllers();
+Console.WriteLine("controllers mapped...");
 app.Run();
+Console.WriteLine("app running...");

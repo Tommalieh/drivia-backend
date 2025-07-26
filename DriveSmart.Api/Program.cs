@@ -3,6 +3,7 @@ using DriveSmart.Application.Services;
 using DriveSmart.Persistence.Data;
 using DriveSmart.Persistence.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
@@ -54,13 +55,39 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<TheoryService>();
 builder.Services.AddScoped<QuizService>();
 
-var app = builder.Build();
+try
+{
+    var app = builder.Build();
+    app.UseExceptionHandler(errorApp =>
+    {
+        errorApp.Run(async context =>
+        {
+            context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+            context.Response.ContentType = "application/json";
 
-app.UseSwagger();
-app.UseSwaggerUI();
-app.UseHttpsRedirection();
-app.UseAuthentication();
-app.UseCors("AllowFrontend");
-app.UseAuthorization();
-app.MapControllers();
-app.Run();
+            var exceptionHandlerPathFeature = context.Features.Get<IExceptionHandlerPathFeature>();
+            var exception = exceptionHandlerPathFeature?.Error;
+
+            var errorResponse = new
+            {
+                Message = "An unexpected error occurred.",
+                Detail = exception?.Message
+            };
+
+            await context.Response.WriteAsJsonAsync(errorResponse);
+        });
+    });
+    app.UseSwagger();
+    app.UseSwaggerUI();
+    app.UseHttpsRedirection();
+    app.UseAuthentication();
+    app.UseCors("AllowFrontend");
+    app.UseAuthorization();
+    app.MapControllers();
+    app.Run();
+}
+catch (Exception e)
+{
+    Console.WriteLine("DriveSmart Exception: " + e);
+    throw;
+}

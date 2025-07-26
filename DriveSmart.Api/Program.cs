@@ -88,6 +88,10 @@ try
 }
 catch (Exception e)
 {
+    Console.WriteLine("-------------------------------------------");
+    Console.WriteLine($".NET version: {Environment.Version}");
+    Console.WriteLine("-------------------------------------------");
     Console.WriteLine("DriveSmart Exception: " + e);
+    Console.WriteLine("-------------------------------------------");
     throw;
 }

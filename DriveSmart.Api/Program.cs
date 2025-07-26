@@ -1,11 +1,66 @@
-Console.WriteLine("Starting...");
+using System.Text;
+using DriveSmart.Application.Services;
+using DriveSmart.Persistence.Data;
+using DriveSmart.Persistence.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+
 var builder = WebApplication.CreateBuilder(args);
-Console.WriteLine("builder created...");
+
+// Define CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173", "https://www.drivia.it")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
+// Add services to the container.
 builder.Services.AddControllers();
-Console.WriteLine("Services added...");
+
+// SwashBuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Add JWT Auth
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        var config = builder.Configuration;
+        options.TokenValidationParameters = new TokenValidationParameters()
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = config["JwtSettings:Issuer"],
+            ValidAudience = config["JwtSettings:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["JwtSettings:Key"]!))
+        };
+    });
+builder.Services.AddAuthorization();
+
+// Register DB and Services
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<UserRefreshTokenRepository>();
+builder.Services.AddScoped<AuthService>();
+builder.Services.AddScoped<TheoryService>();
+builder.Services.AddScoped<QuizService>();
+
 var app = builder.Build();
-Console.WriteLine("builder built...");
+
+app.UseSwagger();
+app.UseSwaggerUI();
+app.UseHttpsRedirection();
+app.UseAuthentication();
+app.UseCors("AllowFrontend");
+app.UseAuthorization();
 app.MapControllers();
-Console.WriteLine("controllers mapped...");
 app.Run();
-Console.WriteLine("app running...");

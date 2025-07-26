@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DriveSmart.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63a01b107e06c5aff8520ec8a938722397b87a41")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23360f60925604c9fae6edcfec00de6d2bb9ae2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DriveSmart.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DriveSmart.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

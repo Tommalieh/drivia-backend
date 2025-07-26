@@ -1,11 +1,3 @@
-/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.csproj.AssemblyReference.cache
-/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.GeneratedMSBuildEditorConfig.editorconfig
-/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.AssemblyInfoInputs.cache
-/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.AssemblyInfo.cs
-/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.csproj.CoreCompileInputs.cache
-/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.MvcApplicationPartsAssemblyInfo.cs
-/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.MvcApplicationPartsAssemblyInfo.cache
-/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.sourcelink.json
 /Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/bin/Debug/net8.0/appsettings.Development.json
 /Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/bin/Debug/net8.0/appsettings.json
 /Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/bin/Debug/net8.0/DriveSmart.Api.staticwebassets.endpoints.json
@@ -147,6 +139,14 @@
 /Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/bin/Debug/net8.0/DriveSmart.Shared.pdb
 /Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/bin/Debug/net8.0/DriveSmart.Domain.pdb
 /Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/bin/Debug/net8.0/DriveSmart.Persistence.pdb
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.csproj.AssemblyReference.cache
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.AssemblyInfoInputs.cache
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.AssemblyInfo.cs
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.csproj.CoreCompileInputs.cache
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.MvcApplicationPartsAssemblyInfo.cs
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.MvcApplicationPartsAssemblyInfo.cache
+/Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/DriveSmart.Api.sourcelink.json
 /Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/scopedcss/bundle/DriveSmart.Api.styles.css
 /Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/staticwebassets.build.json
 /Users/toma/RiderProjects/DriveSmart/DriveSmart.Api/obj/Debug/net8.0/staticwebassets.development.json
